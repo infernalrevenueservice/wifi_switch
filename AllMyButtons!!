@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            background-color: #f5f5f5;
+        }
+        
+        button {
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s;
+            border-width: 3px;
+            border-style: solid;
+        }
+        
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <button style="background-color: #FF6B6B; border-color: #FFD93D; border-radius: 50%; width: 80px; height: 80px;">aaaa</button>
+        <button style="background-color: #4ECDC4; border-color: #FF8080; border-radius: 50%; width: 100px; height: 100px;">help</button>
+        <button style="background-color: #45B7D1; border-color: #98FB98; border-radius: 50%; width: 60px; height: 60px;">buttons</button>
+        <button style="background-color: #96CEB4; border-color: #DDA0DD; border-radius: 50%; width: 90px; height: 90px;">i only picked my favorite ones for this</button>
+        <button style="background-color: #FFBE0B; border-color: #4B0082; border-radius: 5px;">the colors are off tho</button>
+        <button style="background-color: #FB5607; border-color: #00CED1; border-radius: 8px;">okey</button>
+        <button style="background-color: #FF006E; border-color: #32CD32; border-radius: 3px;">idk what else to say</button>
+        <button style="background-color: #8338EC; border-color: #FFB6C1; border-radius: 6px;">numbers</button>
+        <button style="background-color: #3A86FF; border-color: #FFA07A; border-radius: 25px;">1</button>
+        <button style="background-color: #38A3A5; border-color: #FF69B4; border-radius: 30px;">17</button>
+        <button style="background-color: #57CC99; border-color: #BA55D3; border-radius: 20px;">577</button>
+        <button style="background-color: #80ED99; border-color: #4169E1; border-radius: 35px;">ooga booga</button>
+        <button style="background-color: #C7F9CC; border-color: #FF4500; transform: rotate(45deg);">??</button>
+        <button style="background-color: #FF9F1C; border-color: #7B68EE; transform: rotate(55deg);">whoops</button>
+        <button style="background-color: #E71D36; border-color: #20B2AA; transform: rotate(125deg);">waaahhh</button>
+        <button style="background-color: #2EC4B6; border-color: #DAA520; transform: rotate(5deg);">askew</button>
+        <button style="background-color: #011627; border-color: #FF1493; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);">what is this</button>
+        <button style="background-color: #FF0022; border-color: #00FA9A; clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);">weird shape</button>
+        <button style="background-color: #41EAD4; border-color: #9370DB; clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);">hmmmmmm</button>
+        <button style="background-color: #FDFFFC; border-color: #FF8C00; clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);">i don't like these</button>
+    </div>
+</body>
+</html>
